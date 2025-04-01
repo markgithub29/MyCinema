@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M3U Playlist Manager</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Movie Playlist Manager</title>
 </head>
 <body>
-
-    <h2>Add Movie to M3U</h2>
-    <input type="text" id="movieName" placeholder="Movie Name">
-    <input type="text" id="movieLink" placeholder="Play Link">
-    <button onclick="addMovie()">Save</button>
-
-    <h2>Existing Movies</h2>
+    <h2>Movie List</h2>
     <ul id="movieList"></ul>
+
+    <h2>Add New Movie</h2>
+    <input type="text" id="movieName" placeholder="Movie Name">
+    <input type="text" id="playLink" placeholder="Play Link">
+    <button onclick="addMovie()">Add Movie</button>
 
     <script src="script.js"></script>
 </body>
