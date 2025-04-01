@@ -9,7 +9,7 @@ FILE_PATH = "general.m3u"
 UPDATED_FILE_PATH = "updated.m3u"
 
 # TMDb API Details
-TMDB_API_KEY = "YOUR_TMDB_API_KEY"
+TMDB_API_KEY = "bf4119a66b1bf5c2fdb1140d5a36cbfe"
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
 
